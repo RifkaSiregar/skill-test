@@ -1,0 +1,167 @@
+@import url('https://fonts.cdnfonts.com/css/varuna');
+
+@font-face {
+    font-family: 'myFirstFont';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107546/varuna-personal-use-only.woff') format('woff');
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.leftColumn {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-top: -55px;
+}
+
+.textLogo {
+    font-size: 44px;
+    color: #474BCA;
+    font-family: myFirstFont;
+}
+
+.title {
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+}
+
+.subTitle {
+    font-size: 20px;
+    color: black;
+}
+
+.label {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.inputBox {
+    background-color: #FFA3BE;
+    border: #FFA3BE;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 450px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+}
+
+.inputBox::placeholder {
+    color: rgba(138, 137, 137, 0.70);
+}
+
+.buttonLogin {
+    background-color: #474BCA;
+    border: #474BCA;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.firstCaption {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.secondCaption {
+    font-size: 14px;
+    color: #474BCA;
+}
+
+.thirdCaption {
+    font-size: 14px;
+    color: #FFA3BE;
+}
+
+.rightColumn {
+    flex: 1;
+}
+
+.buttonSignUp {
+    width: 120px;
+    height: 30px;
+    background-color: #474BCA;
+    border: #474BCA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSignUp {
+    color: white;
+    text-decoration: none;
+}
+
+.imagePage {
+    margin-top: 60px;
+    text-align: right;
+}
+
+.image {
+    width: 450px;
+}
+
+.alert {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 9999;
+    color: #000;
+    text-align: center;
+}
+
+.alert button {
+    background-color: #474BCA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.alert button:hover {
+    background-color: #303aa6;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}

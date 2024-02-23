@@ -1,0 +1,155 @@
+.container {
+    min-height: 100vh;
+    padding: 50px 100px;
+}
+
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.leftColumn {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.rightColumn {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 36px;
+    color: black;
+    margin-top: -10px;
+}
+
+.jobCard {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #474BCA;
+    width: 200px;
+    min-height: 270px;
+    position: relative;
+}
+
+.cardContainer {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    text-decoration: none;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.companyName {
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.jobTitle {
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    height: 75px;
+}
+
+.labelCard {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    color: #474BCA;
+    font-weight: 600;
+    width: fit-content;
+    text-align: center;
+    font-size: 16px;
+    background-color: #FFA3BE;
+    padding: 5px;
+}
+
+.jobIndustry {
+    color: white;
+}
+
+.buttonUser {
+    background-color: #7274b9;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.textUser {
+    text-decoration: none;
+    color: white;
+}
+
+.logout {
+    margin-left: auto;
+    margin-right: 30px;
+    color: black;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    margin-left: auto;
+    margin-right: 30px;
+    color: #7274b9;
+    margin-top: 5px;
+}
+
+.alert {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 9999;
+    color: #000;
+    text-align: center;
+}
+
+.buttonVacancy {
+    background-color: #eca6e5;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    height: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.textVacancy {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,126 @@
+.container {
+    padding: 50px 100px;
+}
+
+.title {
+    font-size: 36px;
+    color: black;
+    margin-top: -5px;
+}
+
+.alert {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 9999;
+    color: #000;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+.tableContainer {
+    width: 480px;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #474BCA;
+    color: white;
+}
+
+.table tr {
+    background-color: #f2f2f2;
+    color: #474BCA;
+}
+
+.table tr:hover {
+    color: #000;
+}
+
+.button {
+    background-color: #ef8080;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #ff0000;
+}
+
+.select {
+    width: 120px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.logout {
+    margin-left: auto;
+    margin-right: 30px;
+    color: black;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    margin-left: auto;
+    margin-right: 30px;
+    color: #7274b9;
+    margin-top: 5px;
+}
+
+.buttonPost {
+    background-color: #7274b9;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.textPost {
+    text-decoration: none;
+    color: white;
+}
