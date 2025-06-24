@@ -1,5 +1,5 @@
-# Prodia - Test
-Developed as part of the evaluation process for the Full Stack Developer position at PT Prodia Widyahusada Tbk, this project utilizes the Next.js framework along with modern tooling. 
+# Skill - Test
+Developed as part of the evaluation process for the Full Stack Developer position at a company, this project utilizes the Next.js framework along with modern tooling. 
 
 ## General Description
 This project serves as a practical demonstration of integrating with a public API to generate a job list page. Leveraging the public API provided by [Jobicy](https://jobicy.com/), the application showcases various functionalities including the display of job, login and registration, as well as user management capabilities.
